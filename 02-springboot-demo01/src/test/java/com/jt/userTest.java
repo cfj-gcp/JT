@@ -37,8 +37,9 @@ public class userTest {
         List<com.jt.pojo.user> users1 = u.selectBatchIds(idlist);
         System.out.println(users1);
 //    如果需要获取表中的第一列主键信息
+        System.out.println("---------");
           QueryWrapper<user>    a=  new QueryWrapper<>();
-                                a.select("name");
+                                a.select("id","name","age");
         List<Object> list = u.selectObjs(a);
         System.out.println(list);
     }

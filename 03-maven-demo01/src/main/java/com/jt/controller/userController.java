@@ -20,7 +20,7 @@ public class userController {
         model.addAttribute("userList",userList);
         return "userList";
     }
-    @RequestMapping("ajax")
+    @RequestMapping("/ajax")
     public  String  ajax(){
         return  "ajax";
     }

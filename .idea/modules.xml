@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/01-springboot-demo1/01-springboot-demo1.iml" filepath="$PROJECT_DIR$/01-springboot-demo1/01-springboot-demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-springboot-demo01/02-springboot-demo01.iml" filepath="$PROJECT_DIR$/02-springboot-demo01/02-springboot-demo01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03-maven-demo01/03-springboot-demo01.iml" filepath="$PROJECT_DIR$/03-maven-demo01/03-springboot-demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-maven-demon01/04-JTmanage/04-JTmanage.iml" filepath="$PROJECT_DIR$/04-maven-demon01/04-JTmanage/04-JTmanage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-maven-demon01/04-jtAPI/04-jtAPI.iml" filepath="$PROJECT_DIR$/04-maven-demon01/04-jtAPI/04-jtAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-maven-demon01/04-maven-demon01.iml" filepath="$PROJECT_DIR$/04-maven-demon01/04-maven-demon01.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JT.iml" filepath="$PROJECT_DIR$/.idea/JT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ourblog/ourblog.iml" filepath="$PROJECT_DIR$/ourblog/ourblog.iml" />
     </modules>
   </component>
 </project>

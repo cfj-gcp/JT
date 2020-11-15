@@ -8,20 +8,45 @@
 <script type="text/javascript">
 	// 让js页面加载完成后，执行js
 	$(function(){
-		$.get("/find",function(res){
-			for(let user of res){
-				// console.log(user);
-				let id=user.id;
-				let name=user.name;
-				let sex=user.sex;
-				let age=user.age;
-				 let  tr="<tr align='center'><td>"+id+"</td><td>"+name+"</td>"+age+"<td></td><td>"+sex+"</td></tr>";
-				   $("#t").append(tr);
+		// $.get("/find",function(res){
+		// 	for(let user of res){
+		// 		// console.log(user);
+		// 		let id=user.id;
+		// 		let name=user.name;
+		// 		let sex=user.sex;
+		// 		let age=user.age;
+		// 		 let  tr="<tr align='center'><td>"+id+"</td><td>"+name+"</td>"+age+"<td></td><td>"+sex+"</td></tr>";
+		// 		   $("#t").append(tr);
 				
-			}
-		})
-		
+		// 	}
+		// }),
+		// 原生的$.ajax
+		  $.ajax({
+			  type:"get",
+			  data:"id=13&name=狗",
+			  url:"/find",
+			  success: (res) => {
+			  	alert("请求成功");
+				for(let user of res){
+						// console.log(user);
+						let id=user.id;
+						let name=user.name;
+						let sex=user.sex;
+						let age=user.age;
+						 let  tr="<tr align='center'><td>"+id+"</td><td>"+name+"</td>"+age+"<td></td><td>"+sex+"</td></tr>";
+						   $("#t").append(tr);
+						
+					}
+				                },
+		      error: () => {
+			 alert("请求失败");
+		                   },
+						   cache:false,//默认是true,网页数据缓存
+						   async:false//默认是true，异步请求，false是同步请求
+						   
 	})
+	
+	});
 </script>
 </head>
 <body>

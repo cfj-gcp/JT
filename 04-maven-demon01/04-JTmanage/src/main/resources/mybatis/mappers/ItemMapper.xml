@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jt.mapper.ItemMapper">
+	<!--留着以后用  -->
+<!--	实现主键自增的回显-->
+<!--<insert id="" keyProperty="id"  keyColumn="id"  useGeneratedKeys="true">
+
+</insert>-->
+<!--
+UPDATE tb_item SET  STATUS=0 WHERE id=536563
+-->
+	<update id="updateStatus">
+		update tb_item set status=#{status},updated=now() where id in (
+		<foreach collection="ids" item="id" separator=",">
+			#{id}
+		</foreach>
+
+		)
+	</update>
+<!--	ids=100,101,102
+  collection:获取传递集合的key
+  open=“集合遍历前缀”
+  close=“集合遍历后缀”
+  separator=“分隔符"
+  item="当前遍历的对象"
+-->
+	<delete id="deleteItems">
+		delete  from  tb_item where id in(
+		  <foreach collection="ids"  item="id" separator=",">
+		  #{id}
+		  </foreach>
+		)
+	</delete>
+	
+</mapper>
