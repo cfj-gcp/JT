@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-springboot-demo1/01-springboot-demo1.iml" filepath="$PROJECT_DIR$/01-springboot-demo1/01-springboot-demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-springboot-demo01/02-springboot-demo01.iml" filepath="$PROJECT_DIR$/02-springboot-demo01/02-springboot-demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-maven-demo01/03-springboot-demo01.iml" filepath="$PROJECT_DIR$/03-maven-demo01/03-springboot-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-maven-demon01/04-JTmanage/04-JTmanage.iml" filepath="$PROJECT_DIR$/04-maven-demon01/04-JTmanage/04-JTmanage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-maven-demon01/04-jt-cart/04-jt-cart.iml" filepath="$PROJECT_DIR$/04-maven-demon01/04-jt-cart/04-jt-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-maven-demon01/04-jt-order/04-jt-order.iml" filepath="$PROJECT_DIR$/04-maven-demon01/04-jt-order/04-jt-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-maven-demon01/04-jt-sso/04-jt-sso.iml" filepath="$PROJECT_DIR$/04-maven-demon01/04-jt-sso/04-jt-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-maven-demon01/04-jtAPI/04-jtAPI.iml" filepath="$PROJECT_DIR$/04-maven-demon01/04-jtAPI/04-jtAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-maven-demon01/04-jtWEB/04-jtWEB.iml" filepath="$PROJECT_DIR$/04-maven-demon01/04-jtWEB/04-jtWEB.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-maven-demon01/04-maven-demon01.iml" filepath="$PROJECT_DIR$/04-maven-demon01/04-maven-demon01.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JT.iml" filepath="$PROJECT_DIR$/.idea/JT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-jt/dubbo-jt.iml" filepath="$PROJECT_DIR$/dubbo-jt/dubbo-jt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-consumer/dubbo-jt-demo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-consumer/dubbo-jt-demo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-interface/dubbo-jt-demo-interface.iml" filepath="$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-interface/dubbo-jt-demo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-provider/dubbo-jt-demo-provider.iml" filepath="$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-provider/dubbo-jt-demo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-provider2/dubbo-jt-demo-provider2.iml" filepath="$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-provider2/dubbo-jt-demo-provider2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ourblog/ourblog.iml" filepath="$PROJECT_DIR$/ourblog/ourblog.iml" />
     </modules>
   </component>

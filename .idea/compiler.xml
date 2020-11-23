@@ -7,12 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="02-springboot-demo01" />
-        <module name="04-JTmanage" />
         <module name="ourblog" />
+        <module name="dubbo-jt-demo-provider" />
+        <module name="dubbo-jt-demo-interface" />
+        <module name="dubbo-jt-demo-provider2" />
+        <module name="dubbo-jt-demo-consumer" />
+        <module name="02-springboot-demo01" />
+        <module name="04-jt-order" />
+        <module name="04-jt-sso" />
+        <module name="03-springboot-demo01" />
+        <module name="04-jtWEB" />
+        <module name="04-jt-cart" />
+        <module name="04-jtAPI" />
+        <module name="04-JTmanage" />
         <module name="11ourBlog" />
         <module name="03-springboot-dem01" />
-        <module name="04-jtAPI" />
+        <module name="01-springboot-demo1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,10 +30,19 @@
       <module name="02-springboot-demo01" target="1.8" />
       <module name="03-springboot-dem01" target="1.5" />
       <module name="03-springboot-demo01" target="1.8" />
+      <module name="04-jt-cart" target="1.8" />
+      <module name="04-jt-order" target="1.8" />
+      <module name="04-jt-sso" target="1.8" />
       <module name="04-jtAPI" target="1.8" />
       <module name="04-JTmanage" target="1.8" />
+      <module name="04-jtWEB" target="1.8" />
       <module name="04-maven-demon01" target="1.8" />
       <module name="11ourBlog" target="1.5" />
+      <module name="dubbo-jt" target="1.8" />
+      <module name="dubbo-jt-demo-consumer" target="1.8" />
+      <module name="dubbo-jt-demo-interface" target="1.8" />
+      <module name="dubbo-jt-demo-provider" target="1.8" />
+      <module name="dubbo-jt-demo-provider2" target="1.8" />
       <module name="ourblog" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -33,7 +52,15 @@
       <module name="02-springboot-demo01" options="-parameters" />
       <module name="03-springboot-demo01" options="-parameters" />
       <module name="04-JTmanage" options="-parameters" />
+      <module name="04-jt-cart" options="-parameters" />
+      <module name="04-jt-order" options="-parameters" />
+      <module name="04-jt-sso" options="-parameters" />
       <module name="04-jtAPI" options="-parameters" />
+      <module name="04-jtWEB" options="-parameters" />
+      <module name="dubbo-jt-demo-consumer" options="-parameters" />
+      <module name="dubbo-jt-demo-interface" options="-parameters" />
+      <module name="dubbo-jt-demo-provider" options="-parameters" />
+      <module name="dubbo-jt-demo-provider2" options="-parameters" />
       <module name="ourblog" options="-parameters" />
     </option>
   </component>

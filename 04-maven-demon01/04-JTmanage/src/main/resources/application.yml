@@ -25,3 +25,14 @@ mybatis-plus:
 logging:
   level: 
     com.jt.mapper: debug
+
+dubbo:
+  scan:
+    basePackages: com.jt
+  application:
+    name: provider-item
+  registry:
+    address: zookeeper://192.168.126.129:2181?backup=192.168.126.129:2182,192.168.126.129:2183
+  protocol:
+    name: dubbo
+    port: 20881 #每个服务都应该有自己独立的端口

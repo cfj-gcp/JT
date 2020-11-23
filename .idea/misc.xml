@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/03-maven-demo01" />
     <file type="web" url="file://$PROJECT_DIR$/04-maven-demon01/04-JTmanage" />
+    <file type="web" url="file://$PROJECT_DIR$/04-maven-demon01/04-jtWEB" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -11,6 +12,9 @@
         <option value="$PROJECT_DIR$/04-maven-demon01/pom.xml" />
         <option value="$PROJECT_DIR$/ourblog/pom.xml" />
         <option value="$PROJECT_DIR$/02-springboot-demo01/pom.xml" />
+        <option value="$PROJECT_DIR$/01-springboot-demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/03-maven-demo01/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-jt/pom.xml" />
       </list>
     </option>
   </component>
