@@ -38,4 +38,4 @@ dubbo:
     address: zookeeper://192.168.126.129:2181?backup=192.168.126.129:2182,192.168.126.129:2183
   protocol:  #指定协议
     name: dubbo  #使用dubbo协议(tcp-ip)  web-controller直接调用sso-Service
-    port: 20883 #每个服务都应该有自己特定的端口
+    port: 20884 #每个服务都应该有自己特定的端口

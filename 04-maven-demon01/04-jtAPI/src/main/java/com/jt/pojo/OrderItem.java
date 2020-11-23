@@ -13,15 +13,11 @@ import lombok.experimental.Accessors;
 @Data
 @Accessors(chain=true)
 public class OrderItem extends BasePojo{
-	
+//	对象中只能有一个主键 删除多余的主键
 	@TableId
     private String itemId;
-	
-	@TableId	
     private String orderId;
-
     private Integer num;
-
     private String title;
 
     private Long price;
